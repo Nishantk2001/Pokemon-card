@@ -3,6 +3,7 @@ const Card = ({ pokemon, loading, infoPokemon }) => {
   // console.log(pokemon);
   return (
     <>
+      <h1>POKEMON LIST</h1>
       {loading ? (
         <h1>Loading...</h1>
       ) : (
